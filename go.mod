@@ -1,4 +1,4 @@
-module github.com/K-Phoen/sdk
+module github.com/aaguilartablada/grafana-sdk
 
 go 1.19
 

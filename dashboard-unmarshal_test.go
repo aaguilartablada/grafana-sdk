@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/K-Phoen/sdk"
+	sdk "github.com/aaguilartablada/grafana-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

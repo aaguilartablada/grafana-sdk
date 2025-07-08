@@ -562,6 +562,7 @@ type Target struct {
 	} `json:"group,omitempty"`
 
 	// For Prometheus
+	Exemplar       bool   `json:"exemplar,omitempty"`
 	Expr           string `json:"expr,omitempty"`
 	IntervalFactor int    `json:"intervalFactor,omitempty"`
 	Interval       string `json:"interval,omitempty"`

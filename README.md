@@ -1,6 +1,6 @@
 <!--*- mode:markdown -*-->
 
-# Grafana SDK [![Go Report Card](https://goreportcard.com/badge/github.com/K-Phoen/sdk)](https://goreportcard.com/report/github.com/K-Phoen/sdk)
+# Grafana SDK [![Go Report Card](https://goreportcard.com/badge/github.com/aaguilartablada/grafana-sdk)](https://goreportcard.com/report/github.com/aaguilartablada/grafana-sdk)
 
 SDK for Go language offers a library for interacting with
 [Grafana](http://grafana.org) server from Go applications.  It
@@ -29,7 +29,7 @@ library is useful per se.
 1. Prefere no external deps except Go stdlib.
 1. Cover SDK calls with unit tests.
 
-## Examples [![GoDoc](https://godoc.org/github.com/K-Phoen/sdk?status.svg)](https://godoc.org/github.com/K-Phoen/sdk)
+## Examples [![GoDoc](https://godoc.org/github.com/aaguilartablada/grafana-sdk?status.svg)](https://godoc.org/github.com/aaguilartablada/grafana-sdk)
 
 ```go
 	board := sdk.NewBoard("Sample dashboard title")
@@ -66,11 +66,11 @@ The library includes several demo apps for showing API usage:
 
 You need Grafana API key with _admin rights_ for using these utilities.
 
-## Installation [![Build Status](https://travis-ci.org/K-Phoen/sdk.svg?branch=master)](https://travis-ci.org/K-Phoen/sdk)
+## Installation [![Build Status](https://travis-ci.org/aaguilartablada/grafana-sdk.svg?branch=master)](https://travis-ci.org/aaguilartablada/grafana-sdk)
 
 Of course Go development environment should be set up first. Then:
 
-	go get github.com/K-Phoen/sdk
+	go get github.com/aaguilartablada/grafana-sdk
 
 Dependency packages have included into
 distro. [govendor](https://github.com/kardianos/govendor) utility used
@@ -81,7 +81,7 @@ for vendoring.  The single dependency now is:
 The "slugify" for URLs is a simple task but this package used in
 Grafana server so it used in the SDK for the compatibility reasons.
 
-## Status of REST API realization [![Coverage Status](https://coveralls.io/repos/github/K-Phoen/sdk/badge.svg?branch=master)](https://coveralls.io/github/K-Phoen/sdk?branch=master)
+## Status of REST API realization [![Coverage Status](https://coveralls.io/repos/github/aaguilartablada/grafana-sdk/badge.svg?branch=master)](https://coveralls.io/github/aaguilartablada/grafana-sdk?branch=master)
 
 Work on full API implementation still in progress. Currently
 implemented only create/update/delete operations for dashboards and
@@ -126,7 +126,7 @@ time for it. So I gladly accept new contributions. Drop an issue or
 Distributed under Apache v2.0. All rights belong to the SDK
 authors. There is no authors list yet, you can see the full list of
 the contributors in the git history. Official repository is
-https://github.com/K-Phoen/sdk
+https://github.com/aaguilartablada/grafana-sdk
 
 ## Collection of Grafana tools in Golang
 
